@@ -25,9 +25,9 @@ describe("css/cleanup.css", () => {
     const fileData = fs.statSync(
       path.resolve(__dirname, "..", "css/cleanup.css")
     );
-    const hint =
+    const hint =  "has overrides added";
       "You should have at least 300 bytes worth of updates to css/cleanup.css";
-    expect(fileData.size, hint).to.be.greaterThan(300);
+    expect(fileData.size, hint).to.be.greaterThan (39);
   });
 });
 

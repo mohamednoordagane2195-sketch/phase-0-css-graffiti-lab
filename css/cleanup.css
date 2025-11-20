@@ -1,1 +1,10 @@
-/* write your override styles here */
+body {
+    color: blue;
+}
+#wall{
+   height: 622px;  
+}
+
+.tag-1{
+    color: blueviolet;
+}
